@@ -15,4 +15,3 @@ alias apts="apt-cache search"
 END
 
 echo 'The following aliases have been created: apti, aptr, aptp, aptu, apts'
-

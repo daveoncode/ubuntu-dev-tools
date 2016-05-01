@@ -13,4 +13,3 @@ alias doip="docker-machine ip default"
 END
 
 echo "The following alias have been created: dops, doim, doip"
-

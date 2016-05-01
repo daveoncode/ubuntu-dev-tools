@@ -17,4 +17,3 @@ alias media="cd /media/$(whoami)"
 END
 
 echo 'The following aliases have been created: documents, downloads, desktop, music, pictures, videos, media'
-
