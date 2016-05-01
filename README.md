@@ -1,4 +1,4 @@
-# UDIS: Ubuntu Development Tools Install Script
+# Ubuntu Development Tools Install Script
 
 ## What is this?
 I started this project because I was feed up of wasting hours or even days configuring a new machine for web development after installing Ubuntu.
