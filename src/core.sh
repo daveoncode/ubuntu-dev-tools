@@ -6,6 +6,7 @@ apt-get install -y  make \
                     build-essential \
                     linux-headers-$(uname -r) \
                     libssl-dev \
+                    libffi-dev \
                     zlib1g-dev \
                     libbz2-dev \
                     libreadline-dev \
@@ -37,5 +38,6 @@ apt-get install -y  make \
                     tcl8.6-dev \
                     tk8.6-dev \
                     python-tk \
+                    python-dev \
                     vim
 echo "A lot of libraries have been installed for you :)"

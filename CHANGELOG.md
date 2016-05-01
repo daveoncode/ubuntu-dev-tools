@@ -1,6 +1,31 @@
 # ChangeLog
 
-## 0.1
+## 0.1.1
+
+### aliases
+
+- **apt.sh**:
+
+    `apts` now search in package names only (`apt-cache search --names-only`)
+
+### languages
+
+- **python.sh**:
+
+    added flag `--no-cache-dir` for pip installations
+
+### tools
+
+- **docker.sh**:
+
+    added "docker-compose" and "docker-registry"
+
+### core.sh
+
+added "libffi-dev" and "python-dev"
+
+
+## 0.1.0
 
 ### aliases
 

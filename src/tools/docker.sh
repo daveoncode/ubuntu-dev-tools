@@ -6,7 +6,7 @@ echo 'deb https://apt.dockerproject.org/repo ubuntu-xenial main' > /etc/apt/sour
 apt-get update
 apt-get purge lxc-docker
 apt-cache policy docker-engine
-apt-get install -y linux-image-extra-$(uname -r) docker-engine
+apt-get install -y linux-image-extra-$(uname -r) docker-engine docker-compose docker-registry
 usermod -aG docker $(whoami)
 service docker start
 echo "Docker is up and running!"

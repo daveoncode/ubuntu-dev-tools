@@ -25,6 +25,6 @@ END
 echo "Installing python 3.5.1 + virtualenv..."
 pyenv install 3.5.1
 pyenv global 3.5.1
-pip install --upgrade pip
-pip install virtualenv
+pip install --no-cache-dir --upgrade pip
+pip install --no-cache-dir virtualenv
 echo "pyenv has been installed with python 3.5.1 and virtualenv"
