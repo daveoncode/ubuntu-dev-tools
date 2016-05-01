@@ -6,7 +6,7 @@
 
 - **generic.sh**:
     
-    `documents` -> cd ~/Documents
+    `documents` -> `cd ~/Documents`
 
     `downloads` - > `cd ~/Downloads`
 
