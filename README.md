@@ -1,7 +1,7 @@
 # Ubuntu Development Tools Install Script
 
 ## What is this?
-I started this project because I was feed up of wasting hours or even days configuring a new machine for web development after installing Ubuntu.
+I started this project because I was fed up of wasting hours or even days for configuring a new machine for web development after installing Ubuntu.
 The goal of this project is to provide a way to setup the development environment by launching only a single script.
 
 ## Usage
