@@ -11,7 +11,6 @@ There are several bash scripts organized by category:
 - **db**: these scripts install databases (Postgresql, MySql...) and their related tools like management GUIs
 - **tools**: these scripts install development tools (like Docker)
 - **aliases**: these scripts add useful aliases to .bashrc (like shortcuts for apt-get commands)
-- **apps**: these scripts install third party applications
 - **extra**: these scripts install tools to customize the GUI and behaviour of Ubuntu
 - **core.sh**: this script installs libraries required to compile/run/versioning code
 

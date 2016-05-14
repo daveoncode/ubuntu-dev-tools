@@ -1,5 +1,22 @@
 # ChangeLog
 
+## 0.2.0
+
+### core.sh
+
+Added command to enable syntax highlight for nano
+
+### languages
+
+- **javascript.sh**
+
+    Fixed NVM installation (now use git to download the latest available version)
+
+### apps
+
+- Removed apps installation (chrome)
+
+
 ## 0.1.1
 
 ### aliases
@@ -30,7 +47,7 @@ added "libffi-dev" and "python-dev"
 ### aliases
 
 - **generic.sh**:
-    
+
     `documents` -> `cd ~/Documents`
 
     `downloads` - > `cd ~/Downloads`
@@ -46,23 +63,23 @@ added "libffi-dev" and "python-dev"
     `media` -> `cd /media/$(whoami)`
 
 - **apt.sh**:
-    
+
     `apti` -> `sudo apt-get install -y`
-    
+
     `aptr` -> `sudo apt-get remove`
-    
+
     `aptp` -> `sudo apt-get purge`
-    
+
     `aptu` -> `sudo apt-get update`
-    
+
     `apts` -> `apt-cache search`
-    
+
 - **docker.sh**:
-    
+
     `dops` -> `docker ps -a`
-    
+
     `doim` -> `docker images`
-    
+
     `doip` -> `docker-machine ip default`
 
 ### apps
