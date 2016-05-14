@@ -39,5 +39,10 @@ apt-get install -y  make \
                     tk8.6-dev \
                     python-tk \
                     python-dev \
-                    vim
+                    vim \
+                    nano
+
+# enable syntax highlighting for all the available languages
+find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
+
 echo "A lot of libraries have been installed for you :)"
