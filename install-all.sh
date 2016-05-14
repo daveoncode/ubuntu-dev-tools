@@ -14,9 +14,6 @@
 # tools
 . ./src/tools/docker.sh
 
-# apps
-. ./src/apps/chrome.sh
-
 # extra
 . ./src/extra/uicustomization.sh
 
