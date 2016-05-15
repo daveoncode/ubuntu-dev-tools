@@ -1,5 +1,24 @@
 # ChangeLog
 
+## 0.3.0
+
+### core.sh
+
+Added `members` package
+
+### aliases
+
+- **apt.sh**:
+
+  Added `aptl` to list installed packages (`apt list --installed`)
+
+### tools
+
+- **docker.sh**:
+
+  Fixed: current user is now properly added to the "docker" group
+
+
 ## 0.2.0
 
 ### core.sh
