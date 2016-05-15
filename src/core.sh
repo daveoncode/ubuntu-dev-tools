@@ -40,7 +40,8 @@ apt-get install -y  make \
                     python-tk \
                     python-dev \
                     vim \
-                    nano
+                    nano \
+                    members
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
