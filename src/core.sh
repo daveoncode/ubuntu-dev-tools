@@ -41,7 +41,9 @@ apt-get install -y  make \
                     python-dev \
                     vim \
                     nano \
-                    members
+                    members \
+                    exfat-utils \
+                    exfat-fuse
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
