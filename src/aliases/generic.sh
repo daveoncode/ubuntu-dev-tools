@@ -6,13 +6,13 @@ echo "Creating aliases for common paths..."
 cat << 'END' >> ~/.bashrc
 
 # Common aliases:
-alias documents="cd ~/Documents"
-alias downloads="cd ~/Downloads"
-alias desktop="cd ~/Desktop"
-alias music="cd ~/Music"
-alias pictures="cd ~/Pictures"
-alias videos="cd ~/Videos"
-alias media="cd /media/$(whoami)"
+alias documents='cd ~/Documents'
+alias downloads='cd ~/Downloads'
+alias desktop='cd ~/Desktop'
+alias music='cd ~/Music'
+alias pictures='cd ~/Pictures'
+alias videos='cd ~/Videos'
+alias media='cd /media/$(whoami)'
 
 END
 
