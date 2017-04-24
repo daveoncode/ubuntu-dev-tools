@@ -4,7 +4,10 @@ echo "Installing core development libraries (a lot of stuff :P)..."
 apt-get update && apt-get upgrade
 apt-get install -y  make \
                     build-essential \
+                    software-properties-common \
                     linux-headers-$(uname -r) \
+                    linux-image-extra-$(uname -r) \
+                    linux-image-extra-virtual \
                     libssl-dev \
                     libffi-dev \
                     zlib1g-dev \
@@ -25,6 +28,7 @@ apt-get install -y  make \
                     ca-certificates \
                     git \
                     virtualbox \
+                    virtualbox-ext-pack \
                     automake \
                     autoconf \
                     pkg-config \
@@ -40,6 +44,7 @@ apt-get install -y  make \
                     python-tk \
                     python-dev \
                     vim \
+                    curl \
                     nano \
                     members \
                     exfat-utils \

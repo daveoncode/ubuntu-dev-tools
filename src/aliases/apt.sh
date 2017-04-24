@@ -12,6 +12,8 @@ alias apt-remove='sudo apt-get remove'
 alias apt-purge='sudo apt-get purge'
 alias apt-update='sudo apt-get update'
 alias apt-search='apt-cache search --names-only'
+alias apt-add-repo='sudo add-apt-repository -y'
+alias apt-remove-repo='sudo add-apt-repository --remove'
 
 END
 
