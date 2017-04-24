@@ -22,9 +22,13 @@ eval "$(pyenv init -)"
 END
 
 # install python and virtualenv
-echo "Installing python 3.5.1 + virtualenv..."
-pyenv install 3.5.1
-pyenv global 3.5.1
+echo "Installing python..."
+pyenv install 3.6.1
+pyenv install 3.5.3
+pyenv install 3.4.6
+pyenv install 3.3.6
+pyenv install 2.7.13
+pyenv global 3.6.1 3.5.3 3.4.6 3.3.6 2.7.13
 pip install --no-cache-dir --upgrade pip
 pip install --no-cache-dir virtualenv
 echo "pyenv has been installed with python 3.5.1 and virtualenv"
