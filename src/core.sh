@@ -29,6 +29,11 @@ apt-get install -y  make \
                     git \
                     virtualbox \
                     virtualbox-ext-pack \
+                    virtualbox-guest-additions-iso \
+                    virtualbox-guest-dkms \
+                    virtualbox-guest-source \
+                    virtualbox-guest-utils \
+                    virtualbox-guest-x11 \
                     automake \
                     autoconf \
                     pkg-config \
@@ -48,7 +53,9 @@ apt-get install -y  make \
                     nano \
                     members \
                     exfat-utils \
-                    exfat-fuse
+                    exfat-fuse \
+                    unrar \
+                    mcelog
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc

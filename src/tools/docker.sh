@@ -2,20 +2,15 @@
 
 echo "Installing Docker..."
 
-# add repo
-apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
-echo 'deb https://apt.dockerproject.org/repo ubuntu-xenial main' > /etc/apt/sources.list.d/docker.list
-
-# install docker
-apt-get update
-apt-get purge lxc-docker
-apt-cache policy docker-engine
-apt-get install -y linux-image-extra-$(uname -r) docker-engine docker-compose docker-registry
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
 
 # add current user to docker group
 usermod -aG docker $(who | awk '{print $1}')
-
-# start docker
-service docker start
 
 echo "Docker is up and running!"
