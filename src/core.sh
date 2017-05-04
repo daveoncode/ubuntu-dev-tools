@@ -55,7 +55,8 @@ apt-get install -y  make \
                     exfat-utils \
                     exfat-fuse \
                     unrar \
-                    mcelog
+                    mcelog \
+                    net-tools
 
 # enable syntax highlighting for all the available languages
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
